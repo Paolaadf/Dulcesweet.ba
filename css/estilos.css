@@ -3,6 +3,12 @@ html{
     position: relative;
 }
 
+header{
+    display: flex;
+    width: 100;
+    justify-content: flex-end;
+}
+
 .boton{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(252, 214, 245);
@@ -10,46 +16,45 @@ html{
     padding: 6px;
     border-radius: 25px;
     color: black;
-    margin-left: 520%;
-}
-
-.padre{
+    margin-right: 100px;
 }
 
 li{
     list-style: none;
     display: inline-block;
-    position: relative;
-    display: table-cell;
-    vertical-align: niddle;
 }
 
 .imagen{
-    height: 100%;
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-image: url(../imagenes/imglogoinicio.jpg );
-    
-
+    background-size: cover;
+    background-position: center;
 }
 
-.fa-facebook-square{
+.fa-facebook-square,.fa-instagram-square,.fa-whatsapp-square{
 font-size: 50px;
 background-color: white;
-color: rgb(32, 32, 241);
+}
 
+.fa-facebook-square{ 
+color: rgb(32, 32, 241);
 }
 
 .fa-instagram-square{
-font-size: 50px;
-background-color: white;
 color: rgb(241, 34, 79);
-text-align-last: center;
-
 }
 
 .fa-whatsapp-square{
 font-size: 50px;
-background-color: white;
 color: green;
+}
+
+.inicio-footer{
+position: absolute;
+width: 100%;
+bottom: 0;
 }

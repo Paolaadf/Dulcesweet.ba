@@ -4,48 +4,52 @@ html{
 }
 
 .boton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(252, 214, 245);
     text-decoration:none;
-    padding: 10px;
+    padding: 6px;
     border-radius: 25px;
     color: black;
-    right: 0;
+    margin-left: 520%;
 }
-.padre{
-    width: 100%;
 
+.padre{
 }
+
 li{
     list-style: none;
     display: inline-block;
+    position: relative;
+    display: table-cell;
+    vertical-align: niddle;
 }
-ul{ display: inline-block;
-}
-
 
 .imagen{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-image: url(../imagenes/imglogoinicio.jpg );
+    
+
 }
 
-.redessociales{
-    border-radius: 40px;
-}
-.fa-facebook-square
-{
-    font-size: 50px ;
-    background-color: white;
-    border-radius: 25%;
-    padding: 0%;
-    padding: auto;
-    color: blue;
+.fa-facebook-square{
+font-size: 50px;
+background-color: white;
+color: rgb(32, 32, 241);
+
 }
 
+.fa-instagram-square{
+font-size: 50px;
+background-color: white;
+color: rgb(241, 34, 79);
+text-align-last: center;
 
-footer{
-position: absolute;
-bottom: 0; 
-width: 100%;
+}
+
+.fa-whatsapp-square{
+font-size: 50px;
+background-color: white;
+color: green;
 }

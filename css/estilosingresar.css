@@ -1,0 +1,107 @@
+/*MENU*/
+.menu {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    padding:         10px;
+}
+
+.menu__lista {
+    flex-direction: column;
+display: flex;
+justify-content: space-evenly;
+width: 50%;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.menu__item {
+    text-decoration: none;
+
+}
+
+.imagen {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/img-ini-solapas.jpg );
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    display: flex;
+    width: 100;
+    justify-content: flex-end;
+}
+.barra-de-navegacion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 214, 245);
+    text-decoration:none;
+    padding: 6px;
+    border-radius: 25px;
+    color: black;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.botones de .barra-de-navegacion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 214, 245);
+    text-decoration:none;
+    padding: 6px;
+    border-radius: 25px;
+    color: black;
+    margin-right: 20px;
+
+}
+
+.imagen{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/img-ini-solapas.jpg );
+    background-size: cover;
+    background-position: center;
+}

@@ -1,4 +1,5 @@
 /*MENU*/
+
 .menu {
     display:         flex;
     justify-content: space-between;
@@ -33,6 +34,9 @@ width: 50%;
     background-position: center;
 }
 
+/*Ingresar - Barra de Navegacion*/
+
+ul
 
 
 
@@ -57,22 +61,7 @@ width: 50%;
 
 
 
-
-
-
-html{
-    min-height: 100%;
-    position: relative;
-}
-
-body{
-    display: flex;
-    width: 100;
-    justify-content: flex-end;
-}
-.barra-de-navegacion{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(252, 214, 245);
+r: rgb(252, 214, 245);
     text-decoration:none;
     padding: 6px;
     border-radius: 25px;

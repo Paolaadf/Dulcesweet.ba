@@ -1,3 +1,5 @@
+/*PAGINA DE INGRESO*/
+
 html{
     min-height: 100%;
     position: relative;
@@ -16,7 +18,7 @@ header{
     padding: 6px;
     border-radius: 25px;
     color: black;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 li{
@@ -58,4 +60,62 @@ position: absolute;
 width: 100%;
 bottom: 0;
 }
+
+/*PAGINA DE INGRESO Y NAVEGACION*/
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+ul li a{
+    text-decoration: none;
+} 
+
+.imagenInicio {
+    margin: 10px;
+    padding: 10px;
+    height: 95vh;
+    width: 95vw;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/img-ini-solapas.jpg );
+    background-size: cover;
+    background-position: center;
+}
+
+.menuItem1,.menuItem2,.menuItem3,.menuItem4,.menuItem5,.menuItem6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(161, 253, 238);
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 25px;
+    color: black;
+    margin-right: 100px;
+}
+
+/*Productos*/
+
+.tituloYproductos {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(76, 59, 230);
+    display: flex;
+    justify-content: center;
+}
+
+.imagenProductos {
+    margin: 10px;
+    padding: 10px;
+    height: 95vh;
+    width: 95vw;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/img-produc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*contactos*/
+
+
 
